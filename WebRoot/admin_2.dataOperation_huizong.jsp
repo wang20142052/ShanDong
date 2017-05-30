@@ -1,4 +1,4 @@
-<%@ page contentType="text/html; charset=utf-8"%>
+﻿<%@ page contentType="text/html; charset=utf-8"%>
 <%@ page import="java.util.Date"%>
 <%@ page import="java.sql.*"%>
 <%
@@ -59,12 +59,12 @@ p.leftmargin {
                     	<a href="admin_2.dataOperation_chaxun.jsp"><span>数据查询</span></a>
                      </div>
                 </li>
-                <li class="now">
+                <li>
                 	<div class="li_m">
                     	<a href="admin_2.dataOperation_daochu.jsp"><span>数据导出</span></a>
                     </div>
                 </li>
-                <li>
+                <li class="now">
                 	<div class="li_m">
                     	<a href="admin_2.dataOperation_huizong.jsp"><span>数据汇总</span></a>
                     </div>
@@ -76,7 +76,7 @@ p.leftmargin {
     </div>
     <div class="scd_r">
     	<div class="title">
-        	<span>数据导出</span>
+        	<span>数据汇总</span>
         </div>
         <div class="scd_m">
         	<ul class="alfx clearfix">
@@ -95,7 +95,7 @@ p.leftmargin {
                 <a href="">下一页</a>
 
             </div>
+        </div>
 </div>
-</div>
-
+</body>
 </html>
